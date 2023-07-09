@@ -58,11 +58,11 @@ const RegistrationPage = () => {
   };
 
   return (
-    <div className='min-h-screen'>
+    <div className='min-h-screen bg-white'>
     <NavbarCom />
 
     <div className=" p-5 md:p-10 xl:p-20 bg-gray-100 flex  items-center justify-center">
-      <div className="max-w-xl w-full p-6 bg-white rounded shadow-md">
+      <div className="max-w-xl w-full p-6  rounded shadow-md">
         <h2 className="text-2xl font-bold mb-6">Registration</h2>
         <form  onSubmit={handleSubmit}>
           <div className='flex gap-5'>

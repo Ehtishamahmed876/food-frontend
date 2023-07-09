@@ -50,10 +50,10 @@ const LoginPage = () => {
 		}
 	}
   return (
-    <div className='flex min-h-screen flex-col'>
+    <div className='flex bg-white min-h-screen flex-col'>
     <NavbarCom />
     <div className=" p-5 md:p-10 xl:p-20  bg-gray-100 flex items-center justify-center">
-      <div className="max-w-md w-full p-6 bg-white rounded shadow-md">
+      <div className="max-w-md w-full p-6  rounded shadow-md">
         <h2 className="text-2xl font-bold mb-6">Login</h2>
         <form onSubmit={onSubmit}>
           <div className="mb-4">
