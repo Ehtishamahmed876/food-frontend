@@ -104,6 +104,7 @@ const DashboardPage = ({ user }) => {
     console.log('Name:', name);
     console.log('Base64 Image:', base64Image);
     const body = {
+      restuname: user.name,
       email: user.email,
       name: name,
       data: base64Image

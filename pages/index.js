@@ -173,9 +173,9 @@ const Home = () => {
            />
            <div className="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center">
              <div className="text-center text-white">
-               <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold">
+               {/* <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold">
                  McDonald's
-               </h2>
+               </h2> */}
                <p className="text-lg md:text-xl lg:text-2xl">
                  Burgers and much more
                </p>
@@ -203,7 +203,7 @@ const Home = () => {
             <div className="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center">
               <div className="text-center text-white">
                 <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold">
-                  McDonald's 
+                   {item.restuname}
                 </h2>
                 <p className="text-lg md:text-xl lg:text-2xl">
                  {item.name}
